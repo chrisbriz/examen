@@ -14,6 +14,7 @@ const AppStateContext = createContext<AppStateContextProps>(
 );
 
 const appData: AppState = {
+  draggedItem: null,
   lists: [
     {
       id: "0",
