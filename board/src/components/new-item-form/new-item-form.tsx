@@ -18,7 +18,7 @@ export const NewItemForm = ({ onAdd }: NewItemFormProps) => {
     if (event.key === "Enter") {
       onAdd(text);
     }
-  }
+  };
 
   return (
     <NewItemFormContainer>

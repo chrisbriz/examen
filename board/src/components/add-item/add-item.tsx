@@ -20,7 +20,7 @@ export const AddNewItem = (props: AddNewItemProps) => {
           setShowForm(false);
         }}
       />
-    )
+    );
   }
 
   return (
