@@ -1,7 +1,7 @@
-import {AppContainer} from "./styles";
-import { Column } from "./components/column-container/column-container";
-import { AddNewItem } from "./components/add-item/add-item";
-import { useAppState } from "./state/AppStateContext";
+import { AppContainer } from "./styles"
+import { Column } from "./components/column-container/column-container"
+import { AddNewItem } from "./components/add-item/add-item"
+import { useAppState } from "./state/AppStateContext"
 import { addList } from "./state/actions"
 
 export const App = () => {
