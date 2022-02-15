@@ -21,17 +21,17 @@ const appData: AppState = {
     {
       id: "0",
       text: "To Do",
-      tasks: [{ id: "c0", text: "Generate app scaffold" }],
+      tasks: [{ id: "c0", text: "Stuff to do" }],
     },
     {
       id: "1",
       text: "In Progress",
-      tasks: [{ id: "c2", text: "Learn Typescript" }],
+      tasks: [{ id: "c2", text: "Stuff i do now" }],
     },
     {
       id: "2",
       text: "Done",
-      tasks: [{ id: "c3", text: "Begin to use static typing" }],
+      tasks: [{ id: "c3", text: "Stuff i'm done with" }],
     },
   ],
 }
