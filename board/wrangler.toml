@@ -1,0 +1,13 @@
+account_id = "13c365f344f66b9bdf1015a00883cc7a"
+name = "examen"
+type = "webpack"
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2022-02-14"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
