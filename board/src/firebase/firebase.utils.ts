@@ -1,4 +1,4 @@
-import { initializeApp } from "firebase/app";
+import firebase from "firebase-admin"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -8,8 +8,11 @@ const firebaseConfig = {
   storageBucket: "examen-73662.appspot.com",
   messagingSenderId: "949050720337",
   appId: "1:949050720337:web:fcae55715449a48e247870",
-  measurementId: "G-FEQHTPBGHN"
-};
+  measurementId: "G-FEQHTPBGHN",
+}
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig)
+const store = firebase.firestore()
+
+export default store
